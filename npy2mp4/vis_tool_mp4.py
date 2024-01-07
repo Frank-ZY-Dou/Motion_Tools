@@ -8,11 +8,8 @@ from rotation_conversions import axis_angle_to_matrix, matrix_to_rotation_6d
 import torch
 
 file_path = './vis_npy/Bandaging_clip_9.npy'
-# file_path = './vis_npy/Baseball_Bunt_clip_11.npy'
+file_path = './vis_npy/Baseball_Bunt_clip_11.npy'
 output_dir = "./vis_mp4/"
-# 读取.npy文件
-
-# 打印键
 
 
 def save_obj(path, joints):
@@ -101,8 +98,6 @@ def main():
     abs_path = os.path.abspath(output_path)
     save_obj(output_path+"/vis.obj", sample[0, :, :, 10].cpu().numpy())
     print(f'[Done] Results are at [{abs_path}]')
-
-
 
 
 

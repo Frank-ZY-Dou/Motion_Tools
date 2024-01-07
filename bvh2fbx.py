@@ -2,9 +2,7 @@ import pdb
 import bpy
 import sys
 print(sys.exec_prefix)
-
 import numpy as np
-
 import os
 
 
