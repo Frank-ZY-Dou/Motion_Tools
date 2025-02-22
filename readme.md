@@ -45,15 +45,18 @@ Some motion tools, maintained by [Frank Zhiyang Dou](https://frank-zy-dou.github
 A list of our research works on character animation (both kinematics-based and physics-based animation).
 - **[Physically Simulated Character Animation]** 
   - C·ASE: Learning Conditional Adversarial Skill Embeddings for Physics-based Characters, SIGGRAPH ASIA 2023. [[Project Page]](https://frank-zy-dou.github.io/projects/CASE/index.html)
+  - ModSkill: Physical Character Skill Modularization. Axiv 2025. [[Paper]](https://arxiv.org/html/2502.14140v1)
 - **[Kinematics-based Character Animation]** 
-  - TLcontrol: Trajectory and Language Control for Human Motion Synthesis, Arxiv 2023. [[Project Page]](https://tlcontrol.weilinwl.com/)
-  - EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation, Arxiv 2023. [[Project Page]](https://frank-zy-dou.github.io/projects/EMDM/index.html)
+  - TLcontrol: Trajectory and Language Control for Human Motion Synthesis, ECCV 2024. [[Project Page]](https://tlcontrol.weilinwl.com/)
+  - EMDM: Efficient Motion Diffusion Model for Fast, High-Quality Human Motion Generation, ECCV 2024. [[Project Page]](https://frank-zy-dou.github.io/projects/EMDM/index.html)
+- **[Crowd Animation]**
+  - CBIL: Collective Behavior Imitation Learning for Fish from Real Videos, SIGGRAPH ASIA 2024. [[Project Page]](https://frank-zy-dou.github.io/projects/CBIL/index.html)
 
 # Introduction
 Tool list
 - bvh2fbx: [bvh2fbx.py](bvh2fbx.py)
 - smpl npy2mp4: [vis_tool_mp4.py](npy2mp4%2Fvis_tool_mp4.py)
-
+- robot control via Vicon Mocap System: [Robot_Control](Robot_Control)
 # Install
 ```angular2svg
 conda create -n Motion_Tool python=3.8

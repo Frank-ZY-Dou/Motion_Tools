@@ -1,0 +1,24 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Config" pkg="vicon_bridge" type="Config">
+  <param name="tf_pub_rate" type="double" value="100.0" />
+  <param name="tf_publish" type="bool" value="True" />
+  <param name="tf_ref_frame" type="str" value="world" />
+  <param name="tf_frame_in" type="str" value="in" />
+  <param name="tf_frame_out" type="str" value="tf_distort/out" />
+  <param name="delay" type="int" value="0" />
+  <param name="position_scale" type="double" value="1.0" />
+  <param name="noise_type" type="str" value="normal" />
+  <param name="sigma_roll_pitch" type="double" value="0.0" />
+  <param name="sigma_yaw" type="double" value="0.0" />
+  <param name="sigma_xy" type="double" value="0.0" />
+  <param name="sigma_z" type="double" value="0.0" />
+  <param name="random_walk_k_xy" type="double" value="0.0" />
+  <param name="random_walk_k_z" type="double" value="0.0" />
+  <param name="random_walk_sigma_xy" type="double" value="0.0" />
+  <param name="random_walk_sigma_z" type="double" value="0.0" />
+  <param name="random_walk_tau_xy" type="double" value="0.001" />
+  <param name="random_walk_tau_z" type="double" value="0.001" />
+</node>
+\endverbatim
+

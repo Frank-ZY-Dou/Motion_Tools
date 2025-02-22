@@ -1,0 +1,23 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~tf_pub_rate" : \b [double] rate at which tf publishes transforms.  min: 0.0, default: 100.0, max: 250.0
+- \b "~tf_publish" : \b [bool] determine if output will be published. min: False, default: True, max: True
+- \b "~tf_ref_frame" : \b [str] tf reference frame. min: , default: world, max: 
+- \b "~tf_frame_in" : \b [str] tf input frame. min: , default: in, max: 
+- \b "~tf_frame_out" : \b [str] tf output frame. min: , default: tf_distort/out, max: 
+- \b "~delay" : \b [int] delay [ms].  min: 0, default: 0, max: 1000
+- \b "~position_scale" : \b [double] scale of the position measurement min: 0.01, default: 1.0, max: 10.0
+- \b "~noise_type" : \b [str] noise distribution. Standard deviation in case for normal, max. in case for uniform distribution.  min: , default: normal, max: 
+- \b "~sigma_roll_pitch" : \b [double] std dev for roll and pitch [deg].  min: 0.0, default: 0.0, max: 2.0
+- \b "~sigma_yaw" : \b [double] std dev for yaw [deg].  min: 0.0, default: 0.0, max: 2.0
+- \b "~sigma_xy" : \b [double] std dev for x/y [m].  min: 0.0, default: 0.0, max: 1.0
+- \b "~sigma_z" : \b [double] std dev for z [m].  min: 0.0, default: 0.0, max: 1.0
+- \b "~random_walk_k_xy" : \b [double] gain for random walk disturbance in x/y axis. min: 0.0, default: 0.0, max: 10.0
+- \b "~random_walk_k_z" : \b [double] gain for random walk disturbance in z axis. min: 0.0, default: 0.0, max: 10.0
+- \b "~random_walk_sigma_xy" : \b [double] std dev for gauss markov process in x/y axis [m]. min: 0.0, default: 0.0, max: 20.0
+- \b "~random_walk_sigma_z" : \b [double] std dev for gauss markov process in x/y axis [m]. min: 0.0, default: 0.0, max: 20.0
+- \b "~random_walk_tau_xy" : \b [double] time constant for gauss markov process in x/y axis [s]. min: 1.0, default: 0.001, max: 3000.0
+- \b "~random_walk_tau_z" : \b [double] time constant for gauss markov process in z axis [s]. min: 1.0, default: 0.001, max: 3000.0
+
